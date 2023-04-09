@@ -1,0 +1,10 @@
+echo "RUNNING"
+mypwd
+ls -la
+ls -la > cat.ex
+sort < cat.ex > output.txt
+cat output.txt
+ls > output.txt
+cat output.txt
+ls -la | grep t | grep x | grep .
+myexit
